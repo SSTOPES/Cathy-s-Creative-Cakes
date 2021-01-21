@@ -56,7 +56,7 @@ align-items:flex-start;
 }
 
 .section1{
-max-height: 450px;
+min-height: 400px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -72,7 +72,7 @@ background-size: cover;
 }
 
 .section2{
-max-height: 280px;
+max-height: 250px;
 padding:15px; 
 text-align: center;
 text-justify:inherit;
