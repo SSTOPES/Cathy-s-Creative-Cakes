@@ -1,0 +1,373 @@
+html{
+height: 100%;
+width: 100%;
+background-image: url(images/background.jpg);
+background-position: top center;
+}
+
+body{
+width: 80%;
+background-color: whitesmoke;
+margin-left: auto;
+margin-right: auto;
+font-family: playfair display;
+font-size: 20px;
+color: darkgoldenrod; 
+}
+
+a{
+color: darkgoldenrod;
+text-decoration: none; 
+align-items: baseline;
+}
+
+.navbutton{
+padding: 11px 25px;
+display:inline-block;
+text-decoration: none;
+position:relative;    
+}
+
+.navbutton:hover{
+text-decoration: underline;
+border-bottom: solid 2px #97b297;
+}
+
+h1{
+font-family: Montserrat Light;
+font-size: 26px;
+}
+
+h2{
+font-family: Montserrat Light;
+font-size:23px;    
+}
+
+header{
+display:flex;
+justify-content: space-around;
+padding: 10px;
+background: white;
+border-bottom: solid 1px #d6cbcd;    
+}
+
+.logo{
+align-items:flex-start;        
+}
+
+.section1{
+max-height: 450px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 5px;
+padding-bottom: 5px;
+border-bottom: solid 1px #d6cbcd;   
+background-image: url(images/pink%20and%20gold%20confetti.png);
+background-size: cover;
+}
+
+.section1 img{
+ border: 4px solid white;    
+}
+
+.section2{
+max-height: 280px;
+padding:15px; 
+text-align: center;
+text-justify:inherit;
+border-bottom: solid 1px #d6cbcd;   
+}
+.section2 a{
+text-decoration: underline;
+} 
+
+.boxes{
+display: flex;
+flex-wrap: wrap;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+min-height: 400px;
+justify-content: space-around;
+border-bottom: solid 1px #d6cbcd;   
+
+}
+
+.boxes a{
+padding:5px;
+border: 2px solid #d8abb3;
+background-color: #d1cecf;
+    
+}
+
+.box1{
+display: flex;
+background-image: url(images/Wedding%20Cake%20Selction.jpg);
+background-size: cover;
+width: 45%;
+border: 3px #d4c9ae solid;
+
+}
+.box2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 400px;
+width:45%; 
+}
+
+
+.box3{
+display: flex;
+flex-direction: column;   
+justify-content: center;
+align-items: center;
+min-height: 400px;
+width:45%; 
+}
+
+.box4{
+background-image: url(images/Flavours%20image.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 400px;
+width: 45%;
+border: 3px #d4c9ae solid;
+}
+
+.section4 {
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+background-image: url(images/lace%20background.png);
+background-size: cover;
+border-bottom: solid 1px #d6cbcd;      
+}
+
+.section4 H1 {
+text-align: center;
+width: 100%;
+}
+
+.cards{
+border: 3px solid white;        
+}  
+
+/*--Footer--*/
+
+.footer{
+background: #a78942;
+color: whitesmoke;
+height: 350px;
+position: relative;
+border-bottom: solid 1px #0a460a;  
+}
+
+.footer-content{
+height: 200px;
+display: flex;
+justify-content: space-between;
+text-align: center;
+ 
+}
+
+f-section-1 {
+    flex:1;
+}
+
+f-section-2 {
+    flex:1;
+}
+
+f-section-2  a{
+    
+   color:whitesmoke;
+}
+
+f-section-2  ul{
+   
+    list-style: none;
+   
+}
+f-section-3 {
+    flex:1;
+    padding-right: 10px;
+}
+
+
+
+.footer .footer-bottom{   
+background: #4d3b0f;    
+color: #d8cbae;
+height: 100px;
+width: 100%;
+text-align: center;
+position: absolute;
+bottom: 0px;
+left: 0px;
+border-bottom: solid 1px #d6cbcd;   
+}
+ 
+.footer-bottom .con{
+    
+    font-size: 25px;
+} 
+
+/*--start of About Us Page--*/
+.section3{
+max-height: 250px;
+padding:15px; 
+text-align: center;
+text-justify:inherit;
+border-bottom: solid 1px #d6cbcd;   
+}
+
+/*--end of About Us Page--*/
+
+/*--start of flavours page--*/
+
+.lists{
+display: flex;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+list-style: none;
+min-height: 300px;
+justify-content: space-around;
+background-image: url(images/whole%20pink%20and%20gold%20confetti.png);
+background-size: cover;
+
+}
+
+.lists li{
+color: #6f5518; 
+padding: 3px;    
+}
+
+.list1{
+background-size: cover;
+width: 45%;
+
+}
+
+.list2{
+background-size: cover;
+width:45%
+
+}
+
+.lists ul{
+list-style-type: none;
+}
+
+/*--end of flavours page--*/
+
+
+/* Start off form- css*/
+
+
+.inputwrapper{
+margin-bottom: 30px; 
+}
+
+input[type=text], input[type=email], textarea{
+    padding: 12px 20px;
+    width: 100%;
+    box-sizing: border-box;   
+}
+
+.newline{
+display:block;
+margin-bottom:10px;     
+}
+
+.margin-right-a{
+margin: 20px;    
+}
+
+input[type=radio]{
+margin-right: 10px;    
+}
+
+.form-main{   
+padding-left: 10px;
+
+}
+
+
+
+
+/*--end of form--*/
+
+/*--Start of Wedding Cake Gallery--*/
+
+.slideshow-container{
+ height: 600px;
+width: auto;  
+background-image: url(images/pink%20and%20gold%20confetti.png);
+background-size: cover;  
+border-bottom: solid 1px #d6cbcd;
+    
+}
+
+.slideshow-container h1{
+text-align: center;
+padding: 15px;
+
+}
+
+.slideshow{
+align-content: space-around;   
+width: 400px;
+height: 400px;
+background: url(images/Image1.jpg);
+border: 5px solid #8e696f;
+margin:100px auto;
+animation: fade 30s infinite;
+
+}
+
+@keyframes fade{
+
+
+10%{
+background-image: url(images/Image2.jpg);
+}
+    
+20%{
+background-image: url(images/Image3.jpg);
+    } 
+30%{
+background-image: url(images/Image4.jpg);
+    }  
+40%{
+background-image: url(images/Image%205.png);
+    }  
+50%{
+background-image: url(images/Image6.jpg);
+    }  
+60%{
+background-image: url(images/Image7.jpg);
+    }  
+    
+70%{
+background-image: url(images/Image8.jpg);
+    }  
+80%{
+background-image: url(images/Image9.jpg);
+    }  
+90%{
+background-image: url(images/Image10.jpg);
+    }  
+    100%{
+    background-image: url(images/Image1.jpg);    
+    }
+    
+
+}
+/*--end of Wedding Cake Gallery--*/
+
+
+
